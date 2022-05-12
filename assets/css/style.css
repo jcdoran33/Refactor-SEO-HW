@@ -85,7 +85,15 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/* Condesnsing 3 below tags into 1 to avoid redundancy */
+/* New summarized style */
+.benefit-section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
 
+
+/* Comment to exclude old code
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -100,7 +108,17 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+*/
+/* End condense area */
 
+/* Can condense the below into a single style block */
+
+.benefit-section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -115,7 +133,16 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+*/
 
+/* Replace below blocks with a single stlye element */
+
+.benefit-section img{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Comment to remove old code
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,7 +160,17 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+*/
+.content-format {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Above new block replaces 3 sections below */
+/*
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +197,12 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+*/
 
+.content-format img {
+    max-height: 200px;
+}
+/* Removing below 3 blocks, covered by new content-format
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,7 +214,13 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+*/
 
+.content-format h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Comment to remove 3 block below, new contet-format h2 above covers
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -187,6 +235,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+*/
 
 .footer {
     padding: 30px;
